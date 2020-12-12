@@ -25,13 +25,13 @@ venv\Scripts\deactivate.bat
 pip install -r requirements.txt
 ```
 
-### Run the service
+#### Run the service
 ```bash
 set FLASK_APP=application.py
 flask run
 ```
 
-### Post Json 'http://127.0.0.1:5000/'
+#### Post Json 'http://127.0.0.1:5000/'
 ```json
 {
     text : "Güzel şeyler oluyor."
