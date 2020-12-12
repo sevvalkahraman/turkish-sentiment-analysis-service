@@ -1,9 +1,7 @@
 #### Create an environment
 ```bash
-git add .
-git commit -m 'init'
 git remote add origin https://github.com/sevvalkahraman/turkishSentimentAnalysisService.git
-git push origin master
+git pull origin master
 ```
 
 #### Create an environment
@@ -31,4 +29,11 @@ pip install -r requirements.txt
 ```bash
 set FLASK_APP=application.py
 flask run
+```
+
+### Post Json 'http://127.0.0.1:5000/'
+```json
+{
+    text : "Güzel şeyler oluyor."
+}
 ```
