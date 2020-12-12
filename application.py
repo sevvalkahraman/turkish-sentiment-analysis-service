@@ -3,7 +3,6 @@ import json
 from flask import Flask, Response, request, jsonify
 import requests
 from flaskrun import flaskrun
-from config import SlackConfig 
 from nlp import findSentiment
 
 application = Flask(__name__)
