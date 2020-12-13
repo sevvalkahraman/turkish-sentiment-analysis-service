@@ -1,7 +1,7 @@
 # Turkish Sentiment Analysis Service
 This service makes emotional analysis of Turkish sentences and classifies them as positive, neutral or negative. By sending text with the Post method, you get a string result.
 
-#### Create an environment
+#### Gef files
 ```bash
 git remote add origin https://github.com/sevvalkahraman/turkishSentimentAnalysisService.git
 git pull origin master
