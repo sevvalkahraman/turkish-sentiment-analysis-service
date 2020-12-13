@@ -40,3 +40,7 @@ flask run
     "text" : "Güzel şeyler oluyor."
 }
 ```
+
+
+### Reference
+[TextBlob](https://textblob.readthedocs.io/en/dev/)
